@@ -1,0 +1,21 @@
+section.comment__add_container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 20px 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	box-shadow: none;
+}
+
+section.comment__add_container form {
+	display: flex;
+	flex-direction: column;
+}
+
+section.comment__add_container .form-group {
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+	margin: 0 0 10px 0;
+}

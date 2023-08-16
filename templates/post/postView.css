@@ -1,0 +1,17 @@
+article.post__detail__container .post__category {
+	font-size: 1rem;
+	font-weight: 800;
+	color: var(--secondary-purple);
+}
+
+article.post__detail__container .post__dates {
+	font-size: 0.8rem;
+	font-weight: 200;
+	font-style: italic;
+}
+
+article.post__detail__container .post__author {
+	font-size: 1rem;
+	font-weight: 800;
+	color: var(--secondary-purple);
+}

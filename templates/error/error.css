@@ -1,0 +1,10 @@
+.alert.alert-danger {
+	margin: 5% 25%;
+	background-color: rgba(255, 186, 186, 0.771);
+	border-color: rgb(245, 198, 203);
+	color: rgb(216, 0, 12);
+	backdrop-filter: brightness(0.5) blur(5px);
+	padding: 10px;
+	border-radius: 10px;
+	width: 50%;
+}

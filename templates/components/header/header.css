@@ -1,0 +1,121 @@
+header {
+	background-color: var(--primary-blue);
+	width: 100%;
+	margin: 0 0 0 -1rem;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+header a {
+	text-decoration: none;
+	padding: 0.5rem;
+	border-radius: 10px;
+	color: var(--text-color-purplish);
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	transition: var(--default-transition);
+}
+header nav a:hover {
+	background-color: var(--secondary-light-purple);
+	color: var(--text-color-white);
+}
+header a.active {
+	border-bottom: 2px solid var(--secondary-light-purple);
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+header a img {
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+}
+
+header nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1rem;
+}
+
+header nav ul li {
+	list-style: none;
+	margin-right: 1rem;
+}
+
+header nav ul li a i {
+	margin-right: 0.75rem;
+}
+
+header .login_up__section {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1rem;
+}
+
+header .logged_in__section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+header .logged_in__section .mini__profile__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+
+header .logged_in__section .mini__profile__container img {
+	border-radius: 100%;
+	height: 75px;
+	width: 75px;
+}
+
+header .logged_in__section .mini__profile__container p {
+	margin: 0;
+	padding: 0;
+}
+
+header .logged_in__section button .signup {
+	padding: 0;
+}
+
+header .login_up__section a button,
+header .logged_in__section a button {
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	transition: var(--default-transition);
+	cursor: pointer;
+}
+
+header .login_up__section a button.login {
+	background-color: transparent;
+	color: var(--text-color-purplish);
+}
+header .login_up__section a button.login:hover {
+	background-color: var(--secondary-light-purple);
+	color: var(--text-color-white);
+}
+header .login_up__section a button.signup,
+header .logged_in__section a button.signup {
+	background-color: var(--secondary-purple);
+	color: var(--text-color-white);
+}
+header .login_up__section a button.signup:hover,
+header .logged_in__section a button.signup:hover {
+	background-color: var(--secondary-extra-light-purple);
+	color: var(--text-color-white);
+}

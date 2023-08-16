@@ -1,0 +1,49 @@
+section.comments__container {
+	margin-top: 4rem;
+}
+
+section.comments__container .comment__validation {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+section.comments__container .comment__container {
+	padding: 5px;
+	max-width: 80%;
+}
+
+section.comments__container .comment__container .comment__status--true {
+	background-color: rgba(127, 255, 212, 0.501);
+}
+
+section.comments__container .comment__container .comment__status--false {
+	background-color: rgba(255, 127, 127, 0.501);
+}
+
+section.comments__container .comment__container .comment__status--pending {
+	background-color: rgba(127, 197, 255, 0.501);
+}
+
+section .comment__container:nth-child(2n) {
+	background-color: var(--primary-light-grey);
+}
+
+section.comments__container .comment__author {
+	font-weight: bold;
+}
+
+section.comments__container .comment__date {
+	font-size: 0.8rem;
+	font-weight: 200;
+	font-style: italic;
+}
+
+section.comments__container .edited__comment {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	margin: 1rem 0;
+}

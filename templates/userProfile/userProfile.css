@@ -1,0 +1,136 @@
+section.user__profile__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+section.user__profile__container h1 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+section.user__profile__container .user__profile__container__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: var(--primary-blue);
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.5rem 0.5rem var(--primary-blue);
+}
+
+section.user__profile__container form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+section.user__profile__container form label {
+	font-weight: bold;
+	margin-right: 1rem;
+}
+
+section.user__profile__container form input {
+	width: 50%;
+	padding: 0.5rem;
+	border: 0.1rem solid var(--primary-grey);
+	border-radius: 0.5rem;
+}
+
+section.user__profile__container form input:focus {
+	outline: none;
+	border: 0.1rem solid var(--primary-blue);
+}
+
+section.user__profile__container .user__profile__container__content__top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	gap: 1rem;
+}
+
+section.user__profile__container .user__profile__container__content__avatar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	gap: 1rem;
+}
+section.user__profile__container .user__profile__container__content__top img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.user__profile__container__username,
+.user__profile__container__firstname,
+.user__profile__container__lastname,
+.user__profile__container__email,
+.user__profile__container__birthday,
+.user__profile__container__password {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 60%;
+	gap: 1rem;
+}
+
+section.user__profile__container .action__container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: 10rem;
+	margin-top: 3rem;
+}
+
+section.user__profile__container .update__user,
+section.user__profile__container .delete__user {
+	width: 20%;
+}
+section.user__profile__container .delete__user {
+	text-align: center;
+}
+
+section.user__profile__container .user__profile__container__content__bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 5rem;
+}
+
+section.user__profile__container .user__profile__container__content__newsletter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	gap: 1rem;
+}
+
+section.user__profile__container .newsletter__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	gap: 1rem;
+}

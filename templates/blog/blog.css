@@ -1,0 +1,107 @@
+.hero__container .add__post__button {
+	position: absolute;
+	right: 1rem;
+	top: 27rem;
+}
+
+section.blog__container,
+section.home__container {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+}
+
+section.blog__container aside,
+section.home__container aside {
+	width: 15%;
+}
+
+section.blog__container article,
+section.home__container article {
+	width: 80%;
+}
+
+section.blog__container aside .searchbar {
+	margin: 0 2rem 2rem 0;
+}
+section.blog__container aside .searchbar input {
+	border: 1px solid var(--secondary-extra-light-purple);
+	padding: 5px;
+	outline: none;
+	border-radius: 10px;
+	height: 1.5rem;
+	width: 120%;
+}
+
+section.blog__container aside .categories a,
+section.home__container aside a {
+	text-decoration: none;
+	color: var(--secondary-purple);
+}
+
+section.blog__container article,
+section.home__container article {
+	margin: 0 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+section.blog__container ul li,
+section.home__container ul li {
+	list-style: none;
+}
+
+section.blog__container .card,
+section.home__container .card {
+	width: 530px;
+	max-height: 400px;
+}
+
+section.blog__container .card .card__image img,
+section.home__container .card .card__image img {
+	position: relative;
+	width: 100%;
+	max-height: 200px;
+	object-fit: contain;
+}
+
+section.blog__container .card .card__image .card__subtext,
+section.home__container .card .card__image .card__subtext {
+	position: absolute;
+	margin-top: -84px;
+	height: 70px;
+	width: 510px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 10px 10px 0 10px;
+	color: var(--text-color-white);
+	text-shadow: 1px 1px 0 var(--text-color-black);
+	backdrop-filter: blur(10px);
+	background-color: rgba(105, 109, 175, 0.25);
+}
+
+section.blog__container .card .card__content,
+section.home__container .card .card__content {
+	padding: 10px;
+}
+
+section.blog__container .card .card__content p,
+section.home__container .card .card__content p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	margin-bottom: 2rem;
+}
+
+section.blog__container .card .card__content a.purple__button,
+section.home__container .card .card__content a.purple__button {
+	margin: 0;
+}

@@ -1,0 +1,69 @@
+@import './components.css';
+
+@import '../../../templates/components/header/header.css';
+@import '../../../templates/components/footer/footer.css';
+
+@import '../../../templates/home/home.css';
+@import '../../../templates/blog/blog.css';
+@import '../../../templates/about/about.css';
+@import '../../../templates/contact/contact.css';
+@import '../../../templates/privacyPolicy/privacyPolicy.css';
+@import '../../../templates/login/login.css';
+@import '../../../templates/signup/signup.css';
+@import '../../../templates/userProfile/userProfile.css';
+@import '../../../templates/post/postView.css';
+@import '../../../templates/post/postAdd.css';
+@import '../../../templates/comment/comment.css';
+@import '../../../templates/comment/commentAdd.css';
+@import '../../../templates/resume/resume.css';
+@import '../../../templates/rules/rules.css';
+
+@import '../../../templates/loading/loading.css';
+@import '../../../templates/error/error.css';
+
+:root {
+	--primary-blue: #edf3ff;
+	--primary-pink: #c3b5c6;
+	--primary-grey: #605c5b;
+	--primary-light-grey: #e6e6e6;
+
+	--secondary-light-brown: #8f7370;
+	--secondary-black: #1f1a19;
+	--secondary-dark-brown: #503431;
+	--secondary-purple: #1c1e8f;
+	--secondary-light-purple: #434ce7;
+	--secondary-extra-light-purple: #7f84f2;
+	--secondary-orange: #f2a84f;
+	--secondary-light-orange: #f2d84f;
+	--secondary-red: #eb5858;
+	--secondary-strong-red: #d32f2f;
+
+	--text-color-white: #ffffff;
+	--text-color-black: #000000;
+	--text-color-purplish: rgb(105, 109, 175);
+
+	--default-transition: all 0.3s ease-in-out;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: calc(100vh - 304px);
+	margin: 0 1rem;
+	padding: 0;
+	gap: 1rem;
+}
+
+body main {
+	min-height: calc(100vh - 445px);
+	/* margin-top: -1.25rem; */
+}
+
+body main div.hero__container {
+	background-color: var(--primary-blue);
+	width: 100%;
+	margin: 0 0rem 0 -1rem;
+	padding: 1rem;
+}

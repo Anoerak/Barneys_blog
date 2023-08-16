@@ -1,0 +1,66 @@
+section.add__post {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+section.add__post .add__post__form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: var(--primary-blue);
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.5rem 0.5rem var(--primary-blue);
+}
+
+section.add__post .add__post__form .form-group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+section.add__post .add__post__form .form-group label {
+	font-weight: bold;
+}
+
+section.add__post .add__post__form .form-group input,
+section.add__post .add__post__form .form-group select,
+section.add__post .add__post__form .form-group textarea {
+	width: 50%;
+	padding: 0.5rem;
+	border: 0.1rem solid var(--primary-grey);
+	border-radius: 0.5rem;
+}
+
+section.add__post .add__post__form .form-group .add__picture__input {
+	width: 90%;
+}
+
+section.add__post .add__post__form .form-group input:focus,
+section.add__post .add__post__form .form-group select:focus,
+section.add__post .add__post__form .form-group textarea:focus {
+	outline: none;
+	border: 0.1rem solid var(--primary-blue);
+}
+
+section.add__post .add__post__form .add__validation__area {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 15%;
+	margin: 2rem 0;
+	padding: 0;
+}

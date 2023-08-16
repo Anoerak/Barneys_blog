@@ -1,0 +1,79 @@
+.purple__button {
+	text-decoration: none;
+	background-color: var(--secondary-light-purple);
+	color: var(--text-color-white);
+	border: none;
+	border-radius: 0.5rem;
+	margin: 0 0.5rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: var(--default-transition);
+}
+
+.purple__button:hover {
+	background-color: var(--secondary-extra-light-purple);
+	color: var(--text-color-white);
+}
+
+.purple__light__button {
+	text-decoration: none;
+	background-color: var(--secondary-purple);
+	color: var(--text-color-white);
+	border: none;
+	border-radius: 0.5rem;
+	margin: 0 0.5rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: var(--default-transition);
+}
+.purple__light__button:hover {
+	background-color: var(--secondary-light-purple);
+	color: var(--text-color-white);
+}
+
+.alert__button {
+	text-decoration: none;
+	background-color: var(--secondary-orange);
+	color: var(--text-color-white);
+	border: none;
+	border-radius: 0.5rem;
+	margin: 0 0.5rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: var(--default-transition);
+}
+
+.alert__button:hover {
+	background-color: var(--secondary-light-orange);
+	color: var(--text-color-white);
+}
+
+.delete__button {
+	text-decoration: none;
+	background-color: var(--secondary-red);
+	color: var(--text-color-white);
+	border: none;
+	border-radius: 0.5rem;
+	margin: 0 0.5rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: var(--default-transition);
+}
+
+.delete__button:hover {
+	background-color: var(--secondary-strong-red);
+	color: var(--text-color-white);
+}
+
+:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
